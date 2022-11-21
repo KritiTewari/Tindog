@@ -1,0 +1,235 @@
+
+
+body
+{
+
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+  line-height: 1.5;
+}
+
+p
+{
+color: #8f8f8f;
+font-weight:bold;
+
+}
+/*big heading*/
+.big-heading{
+
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin:15% 9%;
+}
+/* container*/
+.container-fluid
+{
+padding:7% 15%;
+
+}
+
+/* sections */
+.colored-section
+{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.white-section
+{
+  background-color: white;
+}
+
+
+/* navbar*/
+.brand
+{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-left: 5%;
+
+}
+
+
+.navbar-item
+{
+
+    font-size:20px;
+    margin:0 20px;
+}
+
+/* title section*/
+
+#title .container-fluid{
+
+  padding: 3% 15% 7%;
+  text-align: left;
+
+}
+
+.download-btn
+{
+    margin-left: 9%;
+    margin-bottom: 9%;
+    margin-top: 3%;
+}
+
+.iphone-image
+{
+
+    height: 75%;
+    margin-left:7%;
+    margin-top: 7%;
+    transform:rotate(15deg);
+    position: absolute;
+}
+
+/*feature-section*/
+
+#features
+{
+
+position:relative;
+
+}
+.feature-box
+{
+  padding: 4.5%;
+
+}
+.features-heading
+{
+
+  font-size: 1.5rem;
+  font-weight:900;
+  font-family: "Montserrat-Bold";
+}
+
+.icon
+{
+
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+
+  color:#ff4c68;
+}
+
+
+
+/*testimonials-section*/
+#testimonials
+{
+
+  background-color: #ef8172;
+}
+
+.testimonials-image
+{
+
+ width:10%;
+ border-radius: 100%;
+ margin:20px;
+
+}
+
+.testimonial-text
+{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+
+
+
+/*press-section*/
+#press
+{
+
+background-color:#ef8172;
+padding-bottom:3%;
+
+
+
+}
+.press-logo
+{
+
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+
+
+
+/*pricing-section*/
+#pricing
+{
+  padding:100px;
+
+}
+.pricing-column
+{
+padding: 3% 2%;
+
+}
+
+@media(max-width:1082px){
+
+  #title
+  {
+      text-align: center;
+  }
+  .iphone-image
+  {
+  position:static;
+  transform: rotate(0);
+
+  }
+
+
+}
+
+.pricing-text
+{
+
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+.pricing-heading
+{
+
+  font-size: 1.5rem;
+  font-weight:900;
+  font-family: "Montserrat-Bold";
+
+}
+
+/* call to action */
+.cta-contain
+{
+    font-size:3.5rem;
+    font-weight: 900;
+    font-family:"Montserrat-black";
+    line-height: 1.5;
+}
+
+/* footer*/
+.fa-footer{
+
+  margin:20px 10px;
+
+}
